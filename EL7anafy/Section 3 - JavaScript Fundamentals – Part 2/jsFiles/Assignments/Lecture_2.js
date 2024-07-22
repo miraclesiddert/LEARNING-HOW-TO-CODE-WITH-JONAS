@@ -35,7 +35,7 @@ const PalestinePop = 5500602;
 function percentageOfWorld1(population) {
   return (population / 7900000000) * 100;
 }
-
+console.log(`//---- LECTURE: Function Declarations vs. Expressions ----//`);
 console.log(
   percentageOfWorld1(ChinaPop),
   percentageOfWorld1(NigeriaPop),
