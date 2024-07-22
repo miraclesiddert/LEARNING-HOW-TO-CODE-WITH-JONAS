@@ -15,7 +15,7 @@ const country = String(prompt("Enter You Country Name.."));
 const population = Number(prompt("Enter Your Country Population.."));
 const capitalCity = String(prompt("Enter Your Capital City.."));
 
-const describeCountry = function (country, population, capitalCity) {
+function describeCountry(country, population, capitalCity) {
   const population_r = popCalc(population); //_r for readable
   function popCalc(population) {
     if (population >= 1000000000 && population <= 8000000000)
@@ -36,7 +36,7 @@ const describeCountry = function (country, population, capitalCity) {
         population > 9999999999 ? "Greater Than Normall" : "Lower Than Normall"
       }`
     );
-};
+}
 
 describeCountry(country, population, capitalCity);
 // describeCountry("Nigeria", "229408040", "Abuja");
