@@ -11,6 +11,10 @@ capital city is Helsinki'
 returned values in 3 different variables, and log them to the console
 */
 
+const country = String(prompt("Enter You Country Name.."));
+const population = Number(prompt("Enter Your Country Population.."));
+const capitalCity = String(prompt("Enter Your Capital City.."));
+
 const describeCountry = function (country, population, capitalCity) {
   const population_r = popCalc(population); //_r for readable
   function popCalc(population) {
@@ -34,6 +38,6 @@ const describeCountry = function (country, population, capitalCity) {
     );
 };
 
-describeCountry("Egypt", "100000000", "Cairo");
-describeCountry("Nigeria", "229408040", "Abuja");
-describeCountry("Palastian", "100000000", "Cairo");
+describeCountry(country, population, capitalCity);
+// describeCountry("Nigeria", "229408040", "Abuja");
+// describeCountry("Palestine", "5500602", "القدس");
