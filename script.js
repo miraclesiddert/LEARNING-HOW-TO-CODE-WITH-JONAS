@@ -45,24 +45,33 @@
 // console.log(ageMiracle, AgeQueen, averageAge);
 
 
+const year = 2024;
+const firstName = 'miracle';
+const job = 'teacher';
+const birthYear = '2002'
+const currentYear = '2024';
 
-// const firstName = 'miracle';
-// const job = 'teacher';
-// const birthYear = '2002'
-// const currentYear = '2024';
+const mimi = "I'm " + firstName + ', a ' + (birthYear - currentYear) + ' years old ' + job + '!.';
+console.log(mimi);
 
-// const mimi = "I'm " + firstName + ', a ' + (birthYear - currentYear) + ' years old ' + job + '!.';
-// console.log(mimi);
+const miracle = `I'm ${firstName}, a ${birthYear-currentYear} year old ${job}!.`;
+console.log(miracle);
 
-// const miracle = `I'm ${firstName}, a ${birthYear-currentYear} year old ${job}!.`;
-// console.log(miracle);
+//STRING TEMPLATE LITERALS
+
+const miracleNew = `i'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+ console.log(miracleNew);
 
 // console.log(`my name is string holder....just a regular string nothing much...`);
+
+//Multiple strings
 
 // console.log(`strings with \n\
 // multiple\n\
 // line`);
+// \n\ is a special character in prograing which means new line should be created
 
+//easy way of doing it with template string
 // console.log(`STRINGS
 // multiple
 // LINE`);
@@ -84,24 +93,24 @@ if () {
 }
 */
 
-const age = 13;
+// const age = 13;
 
-if (age >= 18) {
-    console.log(`Sarah can start driving license 🚗🚗`);
-} else {
-    const yearLeft = 18 - age;
-    console.log(`Sarah is too young. Wait another ${yearLeft} years :)`);
-}
+// if (age >= 18) {
+//     console.log(`Sarah can start driving license 🚗🚗`);
+// } else {
+//     const yearLeft = 18 - age;
+//     console.log(`Sarah is too young. Wait another ${yearLeft} years :)`);
+// }
 
 
-const birthyear = 1995;
-let century;
+// const birthyear = 1995;
+// let century;
 
-if (birthyear <= 2000) {
-    century = 20;
-} else {
-    century = 21;
-}
-console.log(century);
+// if (birthyear <= 2000) {
+//     century = 20;
+// } else {
+//     century = 21;
+// }
+// console.log(century);
 
 

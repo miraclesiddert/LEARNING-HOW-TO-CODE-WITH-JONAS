@@ -37,11 +37,11 @@ change, and which might change?). Then, change these variables to const.
 3. Try to change one of the changed variables now, and observe what happens
 */
 
-// language = 'English';
-// const country = 'Nigeria';
-// const continent = 'Africa';
-// const isLondon = 'false';
-// // isLondon = true;
+language = 'English';
+const country = 'Nigeria';
+const continent = 'Africa';
+const isLondon = 'false';
+// isLondon = true;
 
 // Basic Operator
 /*
@@ -57,13 +57,19 @@ which contains a string with this format: 'Portugal is in Europe, and its 11 mil
 people speak portuguese
 */
 
-// let population = 86; 
-// console.log(population /2);
-// population++;
-// console.log(population);
-// console.log(population >= 6);
-// console.log(population <= 33);
-// let description = country + ' is in ' + continent + ", and it's " + population + " million people speak " + language;
-// console.log(description);
+let population = 86;
+console.log(population /2);
+population++;
+console.log(population);
+console.log(population >= 6);
+console.log(population <= 33);
+let description = country + ' is in ' + continent + ", and it's " + population + " million people speak " + language;
+console.log(description);
 
 
+ /* Strings and Template Literals
+1. Recreate the 'description' variable from the last assignment, this time
+using the template literal syntax
+*/
+
+console.log(`${country} is in ${continent}, and it ${population} million people speak ${language}!`);
