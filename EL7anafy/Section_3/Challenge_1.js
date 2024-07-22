@@ -2,5 +2,5 @@
 console.log(`${ageCaluc(100)}`);
 
 function ageCaluc(birthYear) {
-  const noReturn = 2024 - birthYear;
+  return 2024 - birthYear;
 }
