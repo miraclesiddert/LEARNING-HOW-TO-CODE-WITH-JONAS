@@ -27,20 +27,20 @@ GOOD LUCK �
 // const johnMass = 92;
 
 //test data 2 for mark
-const markHeight = 1.88;
-const markMass = 95;
+// const markHeight = 1.88;
+// const markMass = 95;
 
-//test data 2 for john
-const johnHeight = 1.76;
-const johnMass = 85;
+// //test data 2 for john
+// const johnHeight = 1.76;
+// const johnMass = 85;
 
-const BHIMark = markMass / markHeight ** 2;
-const BHIJohn = johnMass / (johnHeight * johnHeight);
-const markhigherBHI = BHIMark > BHIJohn;
-const johnHigherBMI = BHIJohn > BHIMark;
-console.log(markhigherBHI);
-console.log(johnHigherBMI);
-console.log(BHIMark, BHIJohn);
+// const BHIMark = markMass / markHeight ** 2;
+// const BHIJohn = johnMass / (johnHeight * johnHeight);
+// const markhigherBHI = BHIMark > BHIJohn;
+// const johnHigherBMI = BHIJohn > BHIMark;
+// console.log(markhigherBHI);
+// console.log(johnHigherBMI);
+// console.log(BHIMark, BHIJohn);
 
 
 /*
@@ -64,12 +64,12 @@ GOOD LUCK �
 // }
 
 //step 2 solution
-const markBHI = markMass / markHeight;
-const johnBHI = johnMass / johnHeight;
-console.log(markhigherBHI, johnBHI); // just want to see how it look before implementing it in step two
-if (BHIMark > BHIJohn) {
-    console.log(`Mark's BMI (${markBHI}) is higher than John's!`);
-} else {
-    console.log(`John's BMI is higher than Mark's (${markBHI})!`);
-}
+// const markBHI = markMass / markHeight;
+// const johnBHI = johnMass / johnHeight;
+// console.log(markhigherBHI, johnBHI); // just want to see how it look before implementing it in step two
+// if (BHIMark > BHIJohn) {
+//     console.log(`Mark's BMI (${markBHI}) is higher than John's!`);
+// } else {
+//     console.log(`John's BMI is higher than Mark's (${markBHI})!`);
+// }
 

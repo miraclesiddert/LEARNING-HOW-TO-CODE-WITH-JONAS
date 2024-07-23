@@ -57,11 +57,10 @@ which contains a string with this format: 'Portugal is in Europe, and its 11 mil
 people speak portuguese
 */
 
-<<<<<<< HEAD:Assignments/assignment.js
+
 // let population = 86;
-=======
+
 // let population = 86; 
->>>>>>> parent of d43641d (String template literals coding note and assingments):assignment.js
 // console.log(population /2);
 // population++;
 // console.log(population);
@@ -71,7 +70,6 @@ people speak portuguese
 // console.log(description);
 
 
-<<<<<<< HEAD:Assignments/assignment.js
  /* Strings and Template Literals
 1. Recreate the 'description' variable from the last assignment, this time
 using the template literal syntax
@@ -89,5 +87,20 @@ minus the country's population)
 130. See the different results, and set the population back to origina
 */
 
-=======
->>>>>>> parent of d43641d (String template literals coding note and assingments):assignment.js
+
+// let population = 86;
+// console.log(population / 2);
+// population++;
+// console.log(population);
+// console.log(population >= 6);
+// console.log(population <= 33);
+// let description = country + ' is in ' + continent + ", and it's " + population + " million people speak " + language;
+// console.log(description);
+
+
+// /* Strings and Template Literals
+// 1. Recreate the 'description' variable from the last assignment, this time
+// using the template literal syntax
+// */
+
+// console.log(`${country} is in ${continent}, and it ${population} million people speak ${language}!`);

@@ -45,7 +45,7 @@
 // console.log(ageMiracle, AgeQueen, averageAge);
 
 
-<<<<<<< HEAD:Lectures/script.js
+
 // const year = 2024;
 // const firstName = 'miracle';
 // const job = 'teacher';
@@ -62,7 +62,7 @@
 
 // const miracleNew = `i'm ${firstName}, a ${year - birthYear} year old ${job}!`;
 //  console.log(miracleNew);
-=======
+
 
 // const firstName = 'miracle';
 // const job = 'teacher';
@@ -74,7 +74,7 @@
 
 // const miracle = `I'm ${firstName}, a ${birthYear-currentYear} year old ${job}!.`;
 // console.log(miracle);
->>>>>>> parent of d43641d (String template literals coding note and assingments):script.js
+
 
 // console.log(`my name is string holder....just a regular string nothing much...`);
 
@@ -103,38 +103,43 @@ if () {
 }
 */
 
-const age = 13;
+// const age = 13;
 
-if (age >= 18) {
-    console.log(`Sarah can start driving license 🚗🚗`);
-} else {
-<<<<<<< HEAD:Lectures/script.js
-    const yearsLeft = 18 - age;
-    console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
-}
+// if (age >= 18) {
+//     console.log(`Sarah can start driving license 🚗🚗`);
+// } else {
 
-
-// this code contain the century which a person is born if is 2015 then it will be the 21 century
-const birthyear = 1995; 
-let century; //define it outside the code block and reassign it in the code block
-
-if (birthyear <= 2000) {
-    century = 20; // if it is here it will not work inside the code block
-=======
-    const yearLeft = 18 - age;
-    console.log(`Sarah is too young. Wait another ${yearLeft} years :)`);
-}
+//     const yearsLeft = 18 - age;
+//     console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+// }
 
 
-const birthyear = 1995;
-let century;
+// // this code contain the century which a person is born if is 2015 then it will be the 21 century
+// const birthyear = 1995;
+// let century; //define it outside the code block and reassign it in the code block
 
-if (birthyear <= 2000) {
-    century = 20;
->>>>>>> parent of d43641d (String template literals coding note and assingments):script.js
-} else {
-    century = 21;
-}
-console.log(century);
+// if (birthyear <= 2000) {
+//     century = 20; // if it is here it will not work inside the code block
+
+//     const yearLeft = 18 - age;
+//     console.log(`Sarah is too young. Wait another ${yearLeft} years :)`);
+// }
 
 
+// const birthyear = 1995;
+// let century;
+
+// if (birthyear <= 2000) {
+//     century = 20;
+// } else {
+//     century = 21;
+// }
+// console.log(century);
+
+//TYPE CONVERSION AND TYPE COERCION
+
+
+const birthyear = '1995';
+console.log(birthyear + 22);
+console.log(Number(birthyear) + 22);
+console.log(Number(birthyear)); // this operation turn the string to a number
