@@ -41,7 +41,7 @@ Test data: 125, 555 and 44
 // console.log("//-- End Of Simple Code --//");
 
 //==================================================================================================================//
-//Optimizing The Perviouse Code (The Problem Is That It Unstructured Commands -What Does This Mean- Watch && Catch)//
+//Optimizing The Perviouse Code (The Problem Is That It's Not Apply The Dry Priciple Properly How Cuz' In Calculating Tips Array From Bills Array We Called The Function 3 Times What If The Bills Was 10 Element Would You Like To Do This Ten Times With Tips && Totals - Use Loops - That What I'll Impelement)//
 //================================================================================================================//
 // debugger;
 console.log("//-- Start Of Optimizied Code --//");
