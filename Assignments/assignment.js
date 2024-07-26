@@ -60,7 +60,7 @@ people speak portuguese
 
 // let population = 86;
 
-// let population = 86; 
+// let population = 86;
 // console.log(population /2);
 // population++;
 // console.log(population);
@@ -104,3 +104,20 @@ minus the country's population)
 // */
 
 // console.log(`${country} is in ${continent}, and it ${population} million people speak ${language}!`);
+
+/*
+ =============================================================    Type Conversion and Coercion     ===================================================
+1. Predict the result of these 5 operations without executing them:
+'9' - '5'; // 4
+'19' - '13' + '17'; // 62
+'19' - '13' + 17; //
+'123' < 57; // true
+5 + 6 + '4' + 9 - 4 - 2; //563
+2. Execute the operations to check if you were right
+*/
+
+// '9' - '5'; // 4
+// '19' - '13' + '17'; // 617
+// '19' - '13' + 17; // 23
+// '123' < 57; // false because the string is converted to a number first the compare them 
+// 5 + 6 + '4' + 9 - 4 - 2; // 1143

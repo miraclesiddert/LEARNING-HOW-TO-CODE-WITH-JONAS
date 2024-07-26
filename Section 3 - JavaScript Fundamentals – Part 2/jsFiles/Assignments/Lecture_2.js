@@ -1,6 +1,10 @@
 //---- LECTURE: Function Declarations vs. Expressions ----//
 
 "use strict";
+console.log(
+  `//---- Start LECTURE: Function Declarations vs. Expressions ----//`
+);
+
 /*
 1. The world population is 7900 million people. Create a function declaration
 called 'percentageOfWorld1' which receives a 'population' value, and
@@ -35,7 +39,6 @@ const PalestinePop = 5500602;
 function percentageOfWorld1(population) {
   return (population / 7900000000) * 100;
 }
-console.log(`//---- LECTURE: Function Declarations vs. Expressions ----//`);
 console.log(
   percentageOfWorld1(ChinaPop),
   percentageOfWorld1(NigeriaPop),
@@ -57,3 +60,5 @@ console.log(
   percentageOfWorld2(NigeriaPop),
   percentageOfWorld2(PalestinePop)
 );
+
+console.log(`//---- End LECTURE: Function Declarations vs. Expressions ----//`);
