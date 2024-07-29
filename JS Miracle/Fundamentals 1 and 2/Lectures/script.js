@@ -237,18 +237,63 @@ if () {
 //     console.log(`Someone else should drive...`);
 // }
 
-const day = 'Monday';
+// const day = 'Monday';
 
-switch (day) {
-    case 'monday':// day ==='manday'
-        console.log(`Go to work by 7`);
-        console.log(`After work start coding`);
-        break
-    case 'tuesday':
-        console.log(`Watch theory videos before going to work`);
-        console.log(`go for center meeting by 5pm `);
-        break
-    case 'wednesday':
-        console.log(``);
-    
-}
+// switch (day) {
+//     case 'monday' && 'Monday':// day ==='manday'
+//         console.log(`Go to work by 7`);
+//         console.log(`After work start coding`);
+//         break;
+//     case 'tuesday' && 'Tuesday':
+//         console.log(`Watch theory videos before going to work`);
+//         console.log(`go for center meeting by 5pm `);
+//         break;
+//     case 'wednesday' && 'Wednesday':
+//     case 'thursday' && 'Thursday':
+//         console.log(`wirte code Examples`)
+//         break;
+//     case 'friday' && 'Friday':
+//         console.log('watch videos');
+//         break;
+//     case 'saturday' && 'Saturday':
+//     case 'sunday' && 'Sunday':
+//         console.log('Enjoy the week end :D');
+//         break;
+//     default:
+//         console.log('Not a Valid Day!');
+// } //swictch statemen was build for equality and not for comparing things
+
+
+// const day = 'wednesday';
+
+// if (day === 'monday') {
+//     console.log(`Go to work by 7`);
+//     console.log(`After work start coding`);
+// } else if (day === 'tuesday') {
+//     console.log(`Watch theory videos before going to work`);
+//     console.log(`go for center meeting by 5pm `);
+// } else if (day === 'wednesday' || 'Thursday') {
+//     console.log(`wirte code Examples`)
+// } else if (day === 'friday') {
+//     console.log('watch videos');
+// } else if (day === 'saturday') {
+//     console.log('Enjoy the week end :D');
+// }
+
+// THE CONDITIONAL OPERATOR (IT ALLOWS US TO WHRITE EVERYTHING ALL IN ONE LINE )
+// const age = 23;
+// age >= 18 ? console.log('i like to drink wine 🍷') : console.log('i like to drink water 💧');
+// //has three part the (the condition) (the if) and (the else part )
+// const age = 18;
+// const drink = age >= 18 ? 'wine 🍷' : 'water 💧';//operators always produces a value 
+// console.log(drink);
+
+// let drink2;
+// if (age >= 18) {
+//     drink2 = 'wine 🍷'
+// } else {
+//     drink2 = 'water 💧'
+// }
+
+// console.log(drink2);
+// console.log(`i want to drink ${age >= 18 ? 'wine 🍷' : 'water 💧'}`);
