@@ -119,5 +119,6 @@ minus the country's population)
 // '9' - '5'; // 4
 // '19' - '13' + '17'; // 617
 // '19' - '13' + 17; // 23
-// '123' < 57; // false because the string is converted to a number first the compare them 
+// '123' < 57; // false because the string is converted to a number first the compare them
 // 5 + 6 + '4' + 9 - 4 - 2; // 1143
+
