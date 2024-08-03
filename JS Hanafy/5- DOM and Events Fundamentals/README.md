@@ -21,3 +21,7 @@
 > End Time: Pending.. ⏲️
 >
 > Completed: Guess-My-Number core && Escalated The Severity Of The Vulnerablility To Critical.
+
+- 8/3/2024: Pending.. ⏲️
+
+> Completed: Modal_Project.
