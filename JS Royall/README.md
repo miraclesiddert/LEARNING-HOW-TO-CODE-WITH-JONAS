@@ -45,5 +45,6 @@ Start Time: 2:44pm
 End Time: 
 Completed:  doing challeneges and uploading to github
             completed challenge 1-4
-            starting on challenges 4-8           
+            starting on challenges 4-8
+            continuing learning github and getting familiar.
             
