@@ -28,3 +28,5 @@ To calculate the average, divide the sum you calculated before by the length of 
 (because that's the number of elements).
 Call the function with the totals array.
 */
+
+//updating
