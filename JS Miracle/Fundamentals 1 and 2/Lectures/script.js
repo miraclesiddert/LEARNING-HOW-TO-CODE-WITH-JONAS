@@ -297,3 +297,4 @@ if () {
 
 // console.log(drink2);
 // console.log(`i want to drink ${age >= 18 ? 'wine 🍷' : 'water 💧'}`);
+
